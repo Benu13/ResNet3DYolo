@@ -1,9 +1,10 @@
 # Data inputs
 inputs/*
+
 .vscode
 code_dumpster
 MedicalNet/__pycache__
-MedicalNet/Pretrained
+MedicalNet/Pretrained/*
 model_weight
 MedicalNet/__pycache__
 detection_train/__pycache__
