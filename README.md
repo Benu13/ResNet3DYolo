@@ -69,8 +69,8 @@ Foraminal region detection          |  Subarticular region detection
 
 ## References
 
-[1]. Chen, Sihong and Ma, Kai and Zheng, Yefeng; Med3D: Transfer Learning for 3D Medical Image Analysis, 2019; https://github.com/Tencent/MedicalNet
-[2]. Solovyev, Roman and Kalinin, Alexandr A and Gabruseva, Tatiana; 3D convolutional neural networks for stalled brain capillary detection, 2022; https://github.com/ZFTurbo/timm_3d
-[3]. Wang, Chien-Yao  and Liao, Hong-Yuan Mark; YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information, 2024; https://github.com/WongKinYiu/yolov9
-[4]. RSNA 2024 Lumbar Spine Degenerative Classification; https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification
-[5]. Ross Wightman, PyTorch Image Models, 2019; https://github.com/huggingface/pytorch-image-models
+[1]. Chen, Sihong and Ma, Kai and Zheng, Yefeng; Med3D: Transfer Learning for 3D Medical Image Analysis, 2019; https://github.com/Tencent/MedicalNet  
+[2]. Solovyev, Roman and Kalinin, Alexandr A and Gabruseva, Tatiana; 3D convolutional neural networks for stalled brain capillary detection, 2022; https://github.com/ZFTurbo/timm_3d  
+[3]. Wang, Chien-Yao  and Liao, Hong-Yuan Mark; YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information, 2024; https://github.com/WongKinYiu/yolov9  
+[4]. RSNA 2024 Lumbar Spine Degenerative Classification; https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification  
+[5]. Ross Wightman, PyTorch Image Models, 2019; https://github.com/huggingface/pytorch-image-models  
