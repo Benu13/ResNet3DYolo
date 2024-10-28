@@ -1,0 +1,15 @@
+# Data inputs
+inputs/*
+.vscode
+code_dumpster
+MedicalNet/__pycache__
+MedicalNet/Pretrained
+model_weight
+MedicalNet/__pycache__
+detection_train/__pycache__
+
+# except info 'bout data
+!inputs/README.md 
+!inputs/box_data
+!inputs/test_unique_studies.npy
+!inputs/train_unique_studies.npy

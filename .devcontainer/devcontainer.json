@@ -1,0 +1,21 @@
+{
+    "name": "RSNA spine", 
+    "build": { 
+        "dockerfile": "Dockerfile" 
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python", 
+                "ms-toolsai.jupyter",
+                "hediet.vscode-drawio"
+            ]
+        }
+    },
+    
+    "runArgs": [
+        "--gpus","all",
+        "--shm-size=16gb"
+    ]
+}
