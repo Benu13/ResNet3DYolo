@@ -1,4 +1,5 @@
-# %% Original implementiation taken from: https://github.com/WongKinYiu/yolov9
+# Original implementiation taken from: https://github.com/WongKinYiu/yolov9
+# Version modified in 10/2024
 from typing import Optional, Tuple, Union, List, Sequence
 from functools import partial
 import math
