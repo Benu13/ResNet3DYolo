@@ -25,7 +25,7 @@ While ResNet3D was the chosen architecture, other architectures provided by Timm
 
 ## Data
 
-**Dataset:** The RSNA 2024 Lumbar Spine Degenerative Classification dataset from Kaggle was utilized for training and testing the models. This dataset consists of CT scans in three modalities: sagittal T1, sagittal T2, and axial T2. The scans are annotated with points corresponding to lumbar spine conditions at various levels (L1/L2 to L5/S1).
+**Dataset:** The RSNA 2024 Lumbar Spine Degenerative Classification dataset from Kaggle [4] was utilized for training and testing the models. This dataset consists of CT scans in three modalities: sagittal T1, sagittal T2, and axial T2. The scans are annotated with points corresponding to lumbar spine conditions at various levels (L1/L2 to L5/S1).
 
 **Data Preprocessing:**
 
@@ -41,7 +41,7 @@ The final pipeline was designed to accomplish the following:
 1. **Level Detection:** For each CT scan, the pipeline identifies the relevant spinal levels.
 2. **Level Extraction:** The detected levels are extracted from the original CT scan, creating individual level-specific images.
 3. **Condition Detection:** The extracted level images are processed to detect regions of specific conditions.
-4. **Condition Classification:** The regions of interest corresponding to detected conditions are extracted and classified using a pre-trained DenseNet121 model (Timm implementation [4]).  
+4. **Condition Classification:** The regions of interest corresponding to detected conditions are extracted and classified using a pre-trained DenseNet121 model (Timm implementation [5]).  
   
 ![alt text](images/final_pipeline.png)
   
@@ -66,3 +66,11 @@ An mAP@50 of 0.88 was achieved for foramina region detection, while subarticular
 Foraminal region detection          |  Subarticular region detection
 :-------------------------:|:-------------------------:
 ![alt text](images/foramina_detection_example.gif)|![alt text](images/subarticular_detection_example.gif)  
+
+## References
+
+[1]. Chen, Sihong and Ma, Kai and Zheng, Yefeng; Med3D: Transfer Learning for 3D Medical Image Analysis, 2019; https://github.com/Tencent/MedicalNet
+[2]. Solovyev, Roman and Kalinin, Alexandr A and Gabruseva, Tatiana; 3D convolutional neural networks for stalled brain capillary detection, 2022; https://github.com/ZFTurbo/timm_3d
+[3]. Wang, Chien-Yao  and Liao, Hong-Yuan Mark; YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information, 2024; https://github.com/WongKinYiu/yolov9
+[4]. RSNA 2024 Lumbar Spine Degenerative Classification; https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification
+[5]. Ross Wightman, PyTorch Image Models, 2019; https://github.com/huggingface/pytorch-image-models
